@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0d1117;
+    color: #fff;
+    line-height: 1.6;
+}
+
+span {
+    color: #4da3ff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: #0d1117;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4da3ff;
+}
+
+/* Sections */
+section {
+    padding: 60px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Home */
+.home {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.home img {
+    width: 220px;
+    border-radius: 50%;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.card h3 {
+    color: #4da3ff;
+    margin-bottom: 10px;
+}
+
+.note {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 1px solid #4da3ff;
+    color: #4da3ff;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #4da3ff;
+    color: #000;
+}
+
+/* Social */
+.social a {
+    font-size: 22px;
+    margin-right: 15px;
+    color: #4da3ff;
+}
